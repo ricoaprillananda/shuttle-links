@@ -1,0 +1,19 @@
+{
+  "name": "shuttle-links",
+  "version": "1.0.0",
+  "description": "Lightning-fast URL shortener with static mapping.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
